@@ -14,7 +14,13 @@ body {
 #q1-navbar {
 	background: #364156;
 	color: white;
-
+	display: flex;
+	flex-direction: row;
+	/*justify-content: space-between;*/
+	align-items: flex-start;
+}
+#q1-navbar div{
+	padding: 15px;
 }
 
 
@@ -28,9 +34,25 @@ body {
 /* No selectors given :o */
 
 /* Add the necessary code for all of question 2, flexbox-ception, below */
+#q2-body {
+	
+	display: flexbox;
+	flex-direction: row;
+	/*justify-content: space-between;*/
 
+}
+#q2-container {
+	
+	display: flexbox;
+	flex-direction: row;
+	align-items: center;
+}
+.q2-big-box {
+	color: #364156;
+	display: flexbox;
+	flex-direction: column;
 
-
+}
 
 
 
